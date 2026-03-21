@@ -36,6 +36,7 @@ jobs:
     - name: Push Docker Image
       run: |
         docker push cmatius/docker-graphql:0.0.2
+        docker push cmatius/docker-graphql
         
     #- name: Build the Docker image
     #  run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
